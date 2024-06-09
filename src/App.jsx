@@ -1,4 +1,5 @@
-import 'src/App.css';
+import './App.css';
+import 'normalize.css';
 import HeroSection from "./components/HeroSection";
 
 

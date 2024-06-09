@@ -1,0 +1,12 @@
+.HeroNav {
+    width: 24rem;
+    height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HeroTitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+}

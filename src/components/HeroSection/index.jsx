@@ -1,8 +1,13 @@
 import React from "react";
+import './HeroSection.css'
 
 function HeroSection() {
     return(
-        <div></div>
+        <>
+            <nav className="HeroNav">
+                <h1 className="HeroTitle">Mariana Arquitectos</h1>
+            </nav>
+        </>
     )
 };
 
