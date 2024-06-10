@@ -1,12 +1,25 @@
 .HeroNav {
-    width: 24rem;
+    position: absolute;
+    top: 0;
+    width: 100vw;
     height: 4.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #FFFFFF; 
+}
+
+.HeroSection {
+    width: 100%;
+    margin-top: 2.1rem;
 }
 
 .HeroTitle {
     font-size: 1.2rem;
     font-weight: bold;
+    color: var(--title-color);
+}
+
+.HeroBackground {
+    width: 40rem;
 }
