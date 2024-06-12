@@ -1,8 +1,29 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
+:root {
+  font-family: Helvetica;
+}
+
 body {
+  min-height: 100dvh;
   --title-color: #57606F;
-  
+}
+
+input, button, textarea, select { font: inherit; }
+
+p {
+  text-wrap: pretty;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+img, video, svg {
+  height: auto;
+  max-width: 100%;
 }

@@ -1,14 +1,16 @@
-import React from "react";
 import './HeroSection.css'
 
 function HeroSection() {
     return(
         <>
-            <nav className="HeroNav">
-                <h1 className="HeroTitle">Mariana Arquitectos</h1>
+            <nav className="hero__nav">
+                <h2 className="hero__nav--second-title">Mariana Arquitectos</h2>
             </nav>
-            <section className="HeroSection">
-                <img className="HeroBackground" src='src/assets/Fuentes del Molino/IMG_8741.jpeg' alt="" />
+            <section className="hero__section">
+                <img className="hero__section--background" src='src/assets/Fuentes del Molino/IMG_8745.jpeg' alt="" />
+                <h1 className="hero__section--first-title">Construyendo el futuro de tu proyecto</h1>
+                <p className="hero__section--text">Nuestra misión es lograr que ames tu proyecto toda la vida.</p>
+                <button className="hero__section--button">Empecemos</button>
             </section>
         </>
     )
