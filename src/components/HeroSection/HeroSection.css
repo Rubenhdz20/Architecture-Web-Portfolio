@@ -1,6 +1,4 @@
 .hero__nav {
-    position: absolute;
-    top: 0;
     width: 100%;
     height: 4.5rem;
     display: flex;
@@ -18,11 +16,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-49%, -190%);
-    font-family: Helvetica;
     font-size: 2.7rem;
     font-weight: 700;
     text-align: center;
-    color: white;
+    color: var(--background-color);
 }
 
 .hero__nav--second-title {
@@ -36,7 +33,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -70%);
-    font-family: Helvetica;
     font-weight: 400;
     color: white;
 }
@@ -45,7 +41,6 @@
     object-fit: cover;
     max-width: 100%;
     height: 51.2rem;
-    filter: contrast(85%);
 }
 
 .hero__section--button {
@@ -59,5 +54,14 @@
     padding: 0px 16px;
     justify-content: center;
     align-items: center;
-    background-color: #0C264D;
+    border: none;
+    border-radius: 8px;
+    color: var(--background-color);
+    background-color: var(--background-button-color);
+    cursor: pointer; 
 }
+
+.hero__section--button:hover {
+    background-color: #215bb2;
+    border-color: 1px  gray;
+  }
