@@ -1,0 +1,29 @@
+.whatwedo__title {
+    margin-top: 4rem;
+    margin-left: 1rem;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px; /* 109.375% */
+    letter-spacing: -0.8px;
+    color: var(--title-color);
+}
+
+.whatwedo__information {
+    padding: 1rem;
+}
+
+.whatwedo__information--subtitle {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 125% */
+    letter-spacing: -0.6px;
+}
+
+.whatwedo__information--text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
