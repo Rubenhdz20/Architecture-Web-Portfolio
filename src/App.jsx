@@ -1,6 +1,7 @@
 import HeroSection from "./components/HeroSection";
 import AboutUs from './components/AboutUs';
 import WhatWeDo from "./components/WhatWeDo";
+import OurWork from "./components/OurWork";
 
 
 function App() {
@@ -11,6 +12,8 @@ function App() {
       <AboutUs/>
 
       <WhatWeDo/>
+
+      <OurWork/>
     </>
   )
 }

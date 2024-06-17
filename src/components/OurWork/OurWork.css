@@ -1,0 +1,56 @@
+.ourwork-title {
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px; /* 109.375% */
+    letter-spacing: -0.8px;
+    color: var(--title-color);
+}
+
+.ourwork-subtitle {
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27.5px; /* 137.5% */
+    letter-spacing: -0.33px;
+}
+
+.ourwork-card {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ourwork-card--image {
+    width: 220px;
+    height: 240px;
+    border-radius: 8px;
+}
+
+.ourwork-card--content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ourwork-card--name {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+.ourwork-card--details {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    color: #4F7396;
+}
