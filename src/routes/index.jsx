@@ -1,3 +1,4 @@
+import React from 'react';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from '../Layout/index';
 import AboutUs from '../components/AboutUs/index';
@@ -15,7 +16,7 @@ const router = createBrowserRouter([
       ],
     },
     {
-      path: '*',
+      path: 'project/:projectId',
       element: <ProjectDetails />, // Render ProjectDetails on this route
     },
   ]);
