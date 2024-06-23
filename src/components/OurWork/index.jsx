@@ -24,8 +24,8 @@ function OurWork() {
                     <div className='ourwork-card--content'>
                         <p className='ourwork-card--name'>{project.name}</p>
                         <p className='ourwork-card--details'>{project.date}</p>
-                        <Link to={`/project/${project.id}`} state={{ project }}>
-                            <button>Ver Detalles</button>
+                        <Link className='ourwork-card--link' to={`/project/${project.id}`} state={{ project }}>
+                            <button className='ourwork-card--button'>Ver Detalles</button>
                         </Link>
                     </div>
                 </div>

@@ -54,3 +54,27 @@
     line-height: 21px;
     color: #4F7396;
 }
+
+.ourwork-card--link {
+    text-decoration: none;
+}
+
+.ourwork-card--button {
+    display: flex;
+    width: 150px;
+    height: 35px;
+    margin-top: 1rem;
+    padding: 0px 10px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    color: var(--background-color);
+    background-color: var(--background-button-color);
+    cursor: pointer; 
+}
+
+.ourwork-card--button:hover {
+    background-color: #215bb2;
+    border-color: 1px  gray;
+}
