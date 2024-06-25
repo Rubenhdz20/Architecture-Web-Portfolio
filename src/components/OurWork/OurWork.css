@@ -1,5 +1,5 @@
 .ourwork-title {
-    margin-top: 2.5rem;
+    margin-top: 5rem;
     margin-left: 1rem;
     font-size: 32px;
     font-style: normal;
@@ -34,6 +34,7 @@
 }
 
 .ourwork-card--content {
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,7 +64,7 @@
     display: flex;
     width: 150px;
     height: 35px;
-    margin-top: 1rem;
+    margin-top: .5rem;
     padding: 0px 10px;
     justify-content: center;
     align-items: center;

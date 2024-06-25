@@ -1,5 +1,5 @@
 .contact__title {
-    margin-top: 2.5rem;
+    margin-top: 5rem;
     margin-left: 1rem;
     font-size: 2rem;
     font-style: normal;
@@ -7,4 +7,44 @@
     line-height: 35px; /* 109.375% */
     letter-spacing: -0.8px;
     color: var(--title-color);
+}
+
+.contact__text {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: var(--text-color);
+}
+
+.contact__container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.contact__container--wa {
+    margin-bottom: 1rem;
+    color: #01E423;
+}
+
+.contact__container--message {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    padding: .5rem;
+    border: none;
+    border-radius: 8px;
+    color: #0E0E0E;
+    background-color: #6AA2F6;
+    cursor: pointer;
+}
+
+.contact__container--message:hover {
+    background-color: #b5d3ff;
 }
