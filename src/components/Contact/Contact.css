@@ -1,0 +1,10 @@
+.contact__title {
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px; /* 109.375% */
+    letter-spacing: -0.8px;
+    color: var(--title-color);
+}

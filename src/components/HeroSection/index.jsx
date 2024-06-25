@@ -4,7 +4,7 @@ function HeroSection() {
     return(
         <>
             <nav className="hero__nav">
-                <h2 className="hero__nav--second-title">Mariana Arquitectos</h2>
+                <h2 className="hero__nav--second-title">Arquitecta Mariana</h2>
             </nav>
             <section className="hero__section">
                 <img className="hero__section--background" src='/assets/background 3.jpeg' alt="" />

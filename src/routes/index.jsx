@@ -4,6 +4,7 @@ import Layout from '../Layout/index';
 import AboutUs from '../components/AboutUs/index';
 import OurWork from '../components/OurWork/index';
 import ProjectDetails from "../components/ProjectDetails";
+import Contact from '../components/Contact';
 
 
 const router = createBrowserRouter([
@@ -13,6 +14,7 @@ const router = createBrowserRouter([
       children: [
         { path: 'about-us', element: <AboutUs /> }, 
         { path: 'our-work', element: <OurWork /> },
+        { path: 'contact', element: <Contact /> },
       ],
     },
     {

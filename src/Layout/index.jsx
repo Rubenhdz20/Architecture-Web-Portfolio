@@ -3,10 +3,11 @@ import { Outlet } from 'react-router-dom'; // Import Outlet
 import { useLocation } from 'react-router-dom';
 import HeroSection from '../components/HeroSection/index';
 import AboutUs from '../components/AboutUs/index';
-import OurWork from '../components/OurWork/index'
+import OurWork from '../components/OurWork/index';
+import Contact from '../components/Contact';
 
 function Layout() {
-  const location = useLocation(); // Get current location from React Router
+  const location = useLocation(); 
 
   return (
     <div className='layout'>
@@ -14,8 +15,9 @@ function Layout() {
         <HeroSection />
         <AboutUs />
         <OurWork/>
+        <Contact/>
       </main>
-      {location.pathname !== '/project/:projectId' && <Outlet />} {/* Conditionally render project details */}
+      {location.pathname !== '/project/:projectId' && <Outlet />}
     </div>
   );
 }

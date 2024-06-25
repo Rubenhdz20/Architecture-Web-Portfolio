@@ -1,4 +1,43 @@
+.project-details__svg {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    width: 2rem; 
+    height: 3rem;
+    cursor: pointer;
+}
+
+.project-details__title {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.106px;
+    color: var(--title-color);
+}
+
+.project-details__description {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    color: var(--subtitle-cards-color);
+}
+
+.project-details__container--images {
+    margin-top: 3rem; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 2rem;
+}
+
 .project-details__images {
     width: 250px; 
     height: 250px;
+    border-radius: 1rem;
 }

@@ -5,7 +5,7 @@
 .about-us__title {
     margin-top: 2.5rem;
     margin-left: 1rem;
-    font-size: 32px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 700;
     line-height: 35px; /* 109.375% */
@@ -41,7 +41,7 @@
     gap: 12px;
     background-color: var(--background-cards-color);
     border: 1px solid #D1DBE8;
-    border-radius: 8px;
+    border-radius: 1rem;
 }
 
 .about-us__card-title {
