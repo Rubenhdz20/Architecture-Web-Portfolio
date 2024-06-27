@@ -7,7 +7,7 @@ function OurWork() {
     const { projects, setProjects } = useContext(ProjectsContext);
 
     return (
-        <section className='ourwork'>
+        <section id='our-work' className='ourwork'>
             <h1 className='ourwork-title'>Nuestro Trabajo</h1>
             <h2 className='ourwork-subtitle'>Proyectos Realizados</h2>
             <div className='ourwork-container'>

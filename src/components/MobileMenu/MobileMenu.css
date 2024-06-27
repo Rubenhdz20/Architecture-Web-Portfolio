@@ -1,19 +1,32 @@
 .mobile-container {
   position: fixed; /* Fix the menu to the viewport */
   top: 0; 
-  left: -100%; /* Initially hide the menu off-screen to the left */
+  left: 0; /* Initially hide the menu off-screen to the left */
   width: 100%; /* Set the width to match the viewport */
   height: 100vh; /* Set the height to 100% viewport height */
   background: #f6faff; /* Add a semi-transparent background */
   display: flex; 
   flex-direction: column; 
-  transition: left 0.3s ease-in-out; 
+  animation: none;
   z-index: 3;
 }
 
-.active {
-    left: 0;
-    transition: left 0.3s ease-in-out;
+.mobile-container.activein {
+    animation: slide-in 0.5s ease-in-out forwards; /* Slide-in animation on open */
+}
+  
+.mobile-container.activeout {
+    animation: slide-out 0.5s ease-in-out forwards; /* Slide-out animation on close */
+}
+
+@keyframes slide-in {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}
+
+@keyframes slide-out {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); }
 }
 
 .mobile-list {

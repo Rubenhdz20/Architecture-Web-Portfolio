@@ -11,23 +11,47 @@ const MobileMenu = ({ className, onClose }) => {
       </svg>
       <ul className='mobile-list'>
         <li className='mobile-list__item'>
-          <a href="#about-us" className="mobile-list__link">
+          <a className="mobile-list__link" onClick={() => {
+              onClose();
+              const aboutUsSection = document.getElementById('about-us');
+              if (aboutUsSection) {
+                aboutUsSection.scrollIntoView({ behavior: 'smooth' });
+              }
+            }}>
             Sobre Nosotros
           </a>
         </li>
         <li className='mobile-list__item'>
-          <a href="#about-us" className="mobile-list__link">
-            Sobre Nosotros
+          <a className="mobile-list__link" onClick={() => {
+              onClose();
+              const weDoSection = document.getElementById('whatwedo');
+              if ( weDoSection) {
+                weDoSection.scrollIntoView({ behavior: 'smooth' });
+              }
+            }}>
+            Lo que hacemos
           </a>
         </li>
         <li className='mobile-list__item'>
-          <a href="#about-us" className="mobile-list__link">
-            Sobre Nosotros
+        <a className="mobile-list__link" onClick={() => {
+              onClose();
+              const ourWorkSection = document.getElementById('our-work');
+              if (ourWorkSection) {
+                ourWorkSection.scrollIntoView({ behavior: 'smooth' });
+              }
+            }}>
+            Nuestro Trabajo
           </a>
         </li>
         <li className='mobile-list__item'>
-          <a href="#about-us" className="mobile-list__link">
-            Sobre Nosotros
+          <a className="mobile-list__link" onClick={() => {
+              onClose();
+              const contactSection = document.getElementById('contact-section');
+              if ( contactSection) {
+                contactSection.scrollIntoView({ behavior: 'smooth' });
+              }
+            }}>
+            Contacto
           </a>
         </li>
       </ul>

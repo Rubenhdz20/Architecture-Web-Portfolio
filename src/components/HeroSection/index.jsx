@@ -7,9 +7,10 @@ function HeroSection() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     const toggleMobileMenu = () => {
+        console.log(isMobileMenuOpen);
         setIsMobileMenuOpen(!isMobileMenuOpen);
     };
-
+    
     function smoothScrolling (e) {
         e.preventDefault(); 
         const target = document.getElementById('contact-section');
@@ -22,7 +23,7 @@ function HeroSection() {
         <>
             {isMobileMenuOpen && (
                     <>
-                        <MobileMenu onClose={toggleMobileMenu} className={isMobileMenuOpen ? 'mobile-container active' : 'mobile-container'} />
+                        <MobileMenu onClose={toggleMobileMenu} className={isMobileMenuOpen ? 'mobile-container activein' : 'mobile-container activeout'} />
                     </>
             )}
             <nav className="hero__nav">

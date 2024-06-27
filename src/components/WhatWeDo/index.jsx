@@ -2,7 +2,7 @@ import './WhatWeDo.css';
 
 function WhatWeDo() {
     return(
-        <section className='whatwedo'>
+        <section id='whatwedo' className='whatwedo'>
             <h1 className='whatwedo__title'>Lo que hacemos</h1>
             <div className='whatwedo__container'>
                 <div className='whatwedo__information'>
