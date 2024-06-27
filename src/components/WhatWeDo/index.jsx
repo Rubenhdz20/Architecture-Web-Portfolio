@@ -6,7 +6,7 @@ function WhatWeDo() {
             <h1 className='whatwedo__title'>Lo que hacemos</h1>
             <div className='whatwedo__container'>
                 <div className='whatwedo__information'>
-                    <img className='whatwedo__information--image' src="src/assets/architecture.jpg" alt="" />
+                    <img className='whatwedo__information--image' src="public/assets/architecture.jpg" alt="" />
                     <p className='whatwedo__information--text'>Our team has a strong background in architecture and design, working on projects that range from single-family homes to large-scale commercial buildings.</p>
                 </div>
                 <div className='whatwedo__information'>

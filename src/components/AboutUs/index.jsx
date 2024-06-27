@@ -2,7 +2,7 @@ import './AboutUs.css';
 
 function AboutUs() {
     return(
-        <section className='about-us'>
+        <section id='about-us' className='about-us'>
             <div className='about-us__text-container'>
                 <h1 className='about-us__title'>Sobre Nosotros</h1>
                 <p className='about-us__description'>Somos una empresa enfocado en la creatividad y calidad de todos sus proyectos, con un servicio único.</p>

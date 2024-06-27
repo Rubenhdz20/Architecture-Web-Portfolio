@@ -5,6 +5,8 @@ import HeroSection from '../components/HeroSection/index';
 import AboutUs from '../components/AboutUs/index';
 import OurWork from '../components/OurWork/index';
 import Contact from '../components/Contact';
+import WhatWeDo from '../components/WhatWeDo';
+
 
 function Layout() {
   const location = useLocation(); 
@@ -14,6 +16,7 @@ function Layout() {
       <main>
         <HeroSection />
         <AboutUs />
+        <WhatWeDo/>
         <OurWork/>
         <Contact/>
       </main>

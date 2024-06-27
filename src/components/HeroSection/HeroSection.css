@@ -2,13 +2,14 @@
     width: 100%;
     height: 4.5rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: #FFFFFF; 
 }
 
 .hero__section {
     position: relative;
+    z-index: 1;
 }
 
 .hero__section--first-title {
@@ -23,6 +24,7 @@
 }
 
 .hero__nav--second-title {
+    margin-right: 3rem;
     font-size: 1.2rem;
     font-weight: bold;
     color: var(--title-color);
@@ -44,7 +46,7 @@
     filter: contrast(90%);
 }
 
-.hero__section--button {
+.hero__section--link {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -55,6 +57,7 @@
     padding: 0px 16px;
     justify-content: center;
     align-items: center;
+    text-decoration-line: none;
     border: none;
     border-radius: 8px;
     color: var(--background-color);
@@ -62,7 +65,7 @@
     cursor: pointer; 
 }
 
-.hero__section--button:hover {
+.hero__section--link:hover {
     background-color: #215bb2;
     border-color: 1px  gray;
 }
