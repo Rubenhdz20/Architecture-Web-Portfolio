@@ -9,8 +9,20 @@
     color: var(--title-color);
 }
 
+.whatwedo__container {
+    margin-top: 2rem;
+}
+
 .whatwedo__information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 1rem;
+}
+
+.whatwedo__information--image {
+    width: 27rem;
 }
 
 .whatwedo__information--subtitle {
@@ -23,9 +35,20 @@
 
 .whatwedo__information--text {
     margin-top: 1rem;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: 24px; 
+    text-align: left;
     color: var(--text-color);
+}
+
+@media screen and (max-width: 1024px) {
+    .whatwedo__information--image {
+        width: 30rem;
+    }
+
+    .whatwedo__information--text {
+        font-size: 1.3rem;
+    }
 }

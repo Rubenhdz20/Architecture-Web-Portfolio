@@ -29,6 +29,7 @@
 
 .project-details__container--images {
     margin-top: 3rem; 
+    margin-bottom: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,7 +38,7 @@
 }
 
 .project-details__images {
-    width: 250px; 
-    height: 250px;
+    width: 15.6rem; 
+    height: 15.6rem;
     border-radius: 1rem;
 }
