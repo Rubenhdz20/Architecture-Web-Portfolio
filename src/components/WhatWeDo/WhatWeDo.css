@@ -21,10 +21,6 @@
     padding: 1rem;
 }
 
-.whatwedo__information--image {
-    width: 27rem;
-}
-
 .whatwedo__information--subtitle {
     font-size: 24px;
     font-style: normal;
@@ -35,7 +31,6 @@
 
 .whatwedo__information--text {
     margin-top: 1rem;
-    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: 24px; 
@@ -50,5 +45,16 @@
 
     .whatwedo__information--text {
         font-size: 1.3rem;
+    }
+
+
+    @media screen and (max-width: 602px) {
+        .whatwedo__information--image {
+            width: 27rem;
+        }
+
+        .whatwedo__information--text {
+            font-size: 1rem;
+        }
     }
 }

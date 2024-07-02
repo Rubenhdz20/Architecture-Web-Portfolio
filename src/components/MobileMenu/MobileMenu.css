@@ -1,10 +1,10 @@
 .mobile-container {
-  position: fixed; /* Fix the menu to the viewport */
+  position: fixed;
   top: 0; 
-  left: 0; /* Initially hide the menu off-screen to the left */
-  width: 100%; /* Set the width to match the viewport */
-  height: 100vh; /* Set the height to 100% viewport height */
-  background: #f6faff; /* Add a semi-transparent background */
+  left: 0; 
+  width: 100%; 
+  height: 100vh; 
+  background: #f6faff;
   display: flex; 
   flex-direction: column; 
   animation: none;
@@ -12,11 +12,11 @@
 }
 
 .mobile-container.activein {
-    animation: slide-in 0.5s ease-in-out forwards; /* Slide-in animation on open */
+    animation: slide-in 0.5s ease-in-out forwards; 
 }
   
 .mobile-container.activeout {
-    animation: slide-out 0.5s ease-in-out forwards; /* Slide-out animation on close */
+    animation: slide-out 0.5s ease-in-out forwards;
 }
 
 @keyframes slide-in {
@@ -44,15 +44,11 @@
 
 .mobile-list__item {
     display: flex;
-    width: 293px;
-    height: 48px;
     justify-content: center;
     align-items: center;
-    gap: 16px;
     margin-top: 1rem;
-    padding: 0px 16px;
+    padding: 0px 1rem;
     flex-shrink: 0;
-    border-radius: 12px;
     cursor: pointer;
 }
 
@@ -61,16 +57,47 @@
 }
 
 .mobile-list__link {
-    font-size: 1.3rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 20px; 
+    line-height: 1.25rem; 
     text-decoration: none;
     color: #0D141C;
 }
 
-.mobile-close {
-    width: 2rem; 
-    height: 2rem;
-    cursor: pointer;
+@media screen and (max-width: 1024px) {
+    .mobile-list__item {
+        width: 22rem;
+        height: 4rem;
+        gap: 1rem;
+        border-radius: .75rem;
+    }
+
+    .mobile-list__link {
+        font-size: 1.5rem;
+    }
+
+    .mobile-close {
+        width: 3rem;
+        height: 3rem;
+        cursor: pointer;
+    }
+    
+    @media screen and (max-width: 602px) {
+        .mobile-list__item {
+            width: 18.3rem;
+            height: 3rem;
+            gap: 1rem;
+            border-radius: .75rem;
+        }
+
+        .mobile-list__link {
+            font-size: 1.3rem;
+        }
+
+        .mobile-close {
+            width: 2rem; 
+            height: 2rem;
+            cursor: pointer;
+        }
+    }
 }

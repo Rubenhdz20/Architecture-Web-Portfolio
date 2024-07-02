@@ -74,34 +74,40 @@
     border-color: 1px  gray;
 }
 
-@media screen and (max-width: 602px) {
-    /* Your CSS styles for screens less than 600px wide */
-    .hero__menu {
-        margin-right: 1.5rem; 
-    }  
-
-    .hero__section--background {
-        width: 52rem;
-        height: 52rem;
-    }   
-
-    .hero__section .hero__section--first-title {
-        transform: translate(-49%, -250%);
-    }
-}
-
 
 @media screen and (max-width: 1024px) {
     .hero__menu {
         margin-right: 1.5rem; 
     }
-
+    
     .hero__section--background {
         width: 64rem;
         height: 52rem;
     }    
-
+    
     .hero__section--first-title {
         transform: translate(-49%, -240%);
     }
+    
+    @media screen and (max-width: 602px) {
+        .hero__menu {
+            margin-right: 1.5rem; 
+        }  
+        
+        .hero__section--background {
+            width: 52rem;
+            height: 52rem;
+        }   
+        
+        .hero__section .hero__section--first-title {
+            transform: translate(-49%, -250%);
+        }
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .hero__section--background {
+        width: 104rem;
+        height: 52rem;
+    }  
 }

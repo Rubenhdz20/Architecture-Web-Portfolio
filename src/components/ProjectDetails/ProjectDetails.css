@@ -37,8 +37,27 @@
     gap: 2rem;
 }
 
-.project-details__images {
-    width: 15.6rem; 
-    height: 15.6rem;
-    border-radius: 1rem;
+
+@media screen and (max-width: 1024px) {
+    .project-details__description {
+        font-size: 1.3rem;
+    }
+
+    .project-details__images {
+        width: 17rem; 
+        height: 17rem;
+        border-radius: 1rem;
+    }
+
+    @media screen and (max-width: 602px) {
+        .project-details__description {
+            font-size: 1rem;
+        }
+
+        .project-details__images {
+            width: 15.6rem; 
+            height: 15.6rem;
+            border-radius: 1rem;
+        }
+    }
 }
