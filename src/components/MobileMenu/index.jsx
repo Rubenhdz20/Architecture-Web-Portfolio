@@ -33,13 +33,13 @@ const MobileMenu = ({ className, onClose }) => {
           </a>
         </li>
         <li className='mobile-list__item'>
-        <a className="mobile-list__link" onClick={() => {
-              onClose();
-              const ourWorkSection = document.getElementById('our-work');
-              if (ourWorkSection) {
-                ourWorkSection.scrollIntoView({ behavior: 'smooth' });
-              }
-            }}>
+          <a className="mobile-list__link" onClick={() => {
+                onClose();
+                const ourWorkSection = document.getElementById('our-work');
+                if (ourWorkSection) {
+                  ourWorkSection.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}>
             Nuestro Trabajo
           </a>
         </li>

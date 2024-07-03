@@ -102,3 +102,15 @@
         }
     }
 }
+
+@media screen and (min-width: 1025px) {
+   .about-us__card-svg {
+        width: 1.75rem;
+        height: 1.75rem;
+   }
+
+   .about-us__child-cards {
+        width: 15rem;
+        height: 15rem;
+   }
+}
