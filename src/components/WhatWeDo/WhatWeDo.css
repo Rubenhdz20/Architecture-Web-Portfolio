@@ -1,5 +1,8 @@
-.whatwedo__title {
+.whatwedo {
     margin-top: 4rem;
+} 
+
+.whatwedo__title {
     margin-left: 1rem;
     font-size: 32px;
     font-style: normal;
@@ -22,10 +25,10 @@
 }
 
 .whatwedo__information--subtitle {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 30px; /* 125% */
+    line-height: 1.87rem;
     letter-spacing: -0.6px;
 }
 
@@ -33,7 +36,7 @@
     margin-top: 1rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; 
+    line-height: 1.5rem; 
     text-align: left;
     color: var(--text-color);
 }
@@ -57,4 +60,42 @@
             font-size: 1rem;
         }
     }
+}
+
+@media screen and (min-width: 1025px) {
+    .whatwedo {
+        margin-top: 6rem;
+    } 
+    
+    .whatwedo__information {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+        padding: 0; 
+    }
+
+    .whatwedo__information--image {
+        width: 100%;
+    }
+
+    .whatwedo__information .img1 {
+        grid-column: 2;
+    }
+      
+    .whatwedo__information .p1 {
+        grid-column: 1;
+        grid-column-start: 1;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .whatwedo__information--text {
+        font-size: 1.5rem;
+        margin-top: 0;
+        margin-right: 4rem;
+        margin-left: 4rem;
+        text-wrap: wrap;
+    }
+
 }

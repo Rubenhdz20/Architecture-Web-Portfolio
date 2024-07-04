@@ -4,7 +4,7 @@
     font-size: 2rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 2.18rem; /* 109.375% */
+    line-height: 2.18rem; 
     letter-spacing: -0.8px;
     color: var(--title-color);
 }
@@ -14,7 +14,7 @@
     text-align: center;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.71rem; /* 137.5% */
+    line-height: 1.71rem;
     letter-spacing: -0.33px;
 }
 
@@ -36,13 +36,13 @@
 
 .ourwork-card--name {
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.5rem; 
 }
 
 .ourwork-card--details {
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.3rem;
     color: #4F7396;
 }
@@ -67,7 +67,7 @@
 }
 
 .ourwork-card--button:hover {
-    background-color: #215bb2;
+    background-color: #1572ff;
     border-color: 1px  gray;
 }
 
@@ -109,5 +109,22 @@
         .ourwork-card--details {
             font-size: .88rem;
         }
+    }
+}
+
+
+@media screen and (min-width: 1025px) {
+    .ourwork-title {
+        margin-top: 7rem;
+    }
+
+    .ourwork-subtitle {
+        margin-top: 7rem;
+    }
+
+    .ourwork-card--image {
+        width: 30rem;
+        height: 30rem;
+        border-radius: 1rem;
     }
 }

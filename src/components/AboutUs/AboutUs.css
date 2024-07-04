@@ -71,7 +71,7 @@
     }
 
     .about-us__card-title {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .about-us__card-description {
@@ -104,13 +104,26 @@
 }
 
 @media screen and (min-width: 1025px) {
+    .about-us__description {
+        font-size: 1.4rem;
+    }
+
+    .about-us__child-cards {
+        width: 18rem;
+        height: 15rem;
+    }
+
    .about-us__card-svg {
-        width: 1.75rem;
-        height: 1.75rem;
+        width: 1.80rem;
+        height: 1.80rem;
    }
 
-   .about-us__child-cards {
-        width: 15rem;
-        height: 15rem;
+   .about-us__card-title {
+        font-size: 1.2rem;
+   }
+
+   .about-us__card-description {
+        text-wrap: wrap;
+        font-size: 1.1rem;
    }
 }

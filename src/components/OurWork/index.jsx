@@ -4,7 +4,7 @@ import { ProjectsContext } from '../ProjectContext/index';
 import './OurWork.css';
 
 function OurWork() {
-    const { projects, setProjects } = useContext(ProjectsContext);
+    const { projects } = useContext(ProjectsContext);
 
     return (
         <section id='our-work' className='ourwork'>

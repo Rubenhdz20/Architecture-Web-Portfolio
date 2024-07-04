@@ -53,8 +53,8 @@
 }
 
 .mobile-list__item:hover {
-    background: #D1DBE8;
-}
+    background-color: #9DE0FF;
+} 
 
 .mobile-list__link {
     font-style: normal;
