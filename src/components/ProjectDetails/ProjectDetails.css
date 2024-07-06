@@ -1,7 +1,7 @@
 .project-details__svg {
     margin-top: 1rem;
     margin-left: 2rem;
-    width: 2rem; 
+    width: 1.5rem; 
     height: 3rem;
     cursor: pointer;
 }
@@ -27,19 +27,23 @@
     color: var(--subtitle-cards-color);
 }
 
-.project-details__container--images {
-    margin-top: 3rem; 
-    margin-bottom: 3rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-    gap: 2rem;
+.project-details__details {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    color: var(--subtitle-cards-color);
 }
 
 
 @media screen and (max-width: 1024px) {
     .project-details__description {
+        font-size: 1.3rem;
+    }
+
+    .project-details__details {
         font-size: 1.3rem;
     }
 
@@ -49,15 +53,40 @@
         border-radius: 1rem;
     }
 
+    .project-details__container--images {
+        margin-top: 3rem; 
+        margin-bottom: 3rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
     @media screen and (max-width: 602px) {
         .project-details__description {
             font-size: 1rem;
         }
 
+        .project-details__details {
+            font-size: 1rem;
+        }
+    
+
         .project-details__images {
             width: 15.6rem; 
             height: 15.6rem;
             border-radius: 1rem;
+        }
+
+        .project-details__container--images {
+            margin-top: 3rem; 
+            margin-bottom: 3rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; 
+            gap: 2rem;
         }
     }
 }
@@ -71,9 +100,20 @@
     }
 
     .project-details__container--images {
+        margin-top: 3rem; 
+        margin-bottom: 3rem;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         justify-items: center;
         align-items: center;
+        gap: 2rem;
+    }
+
+    .project-details__description {
+        font-size: 1.4rem;
+    }
+
+    .project-details__details {
+        font-size: 1.4rem;
     }
 }

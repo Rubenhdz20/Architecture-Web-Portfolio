@@ -11,14 +11,6 @@ function HeroSection() {
         setIsMobileMenuOpen(!isMobileMenuOpen);
     };
     
-    // function smoothScrolling (e) {
-    //     e.preventDefault(); 
-    //     const target = document.getElementById('contact-section');
-    //     if (target) {
-    //         target.scrollIntoView({ behavior: 'smooth' });
-    //     }
-    // }
-
     return(
         <>
             {isMobileMenuOpen && (

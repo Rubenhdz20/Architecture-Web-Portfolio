@@ -43,6 +43,9 @@ function ProjectDetails() {
           </svg>
           <h2 className='project-details__title'>{project.name}</h2>
           <p className='project-details__description'>{project.description}</p>
+          <p className='project-details__details'>{project.details}</p>
+          <p className='project-details__details'>{project.details2}</p>
+          <p className='project-details__details'>{project.details3}</p>
           <div className='project-details__container--images'>{renderImages()}</div>
       </div>
     );

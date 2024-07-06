@@ -47,25 +47,27 @@
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
-    padding: 0px 1rem;
+    padding: 1rem;
     flex-shrink: 0;
     cursor: pointer;
+    background-color: #edf4ff;
 }
 
 .mobile-list__item:hover {
-    background-color: #9DE0FF;
+    background-color: #e8f1ff;
 } 
 
 .mobile-list__link {
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1.25rem; 
     text-decoration: none;
-    color: #0D141C;
+    color: var(--title-color);
 }
 
 @media screen and (max-width: 1024px) {
     .mobile-list__item {
+        margin-top: 3rem;
         width: 22rem;
         height: 4rem;
         gap: 1rem;
@@ -84,6 +86,7 @@
     
     @media screen and (max-width: 602px) {
         .mobile-list__item {
+            margin-top: 3rem;
             width: 18.3rem;
             height: 3rem;
             gap: 1rem;

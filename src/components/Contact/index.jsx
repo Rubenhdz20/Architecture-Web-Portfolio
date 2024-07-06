@@ -10,7 +10,7 @@ function Contact() {
 
   return (
     <>
-      <section id="contact-section">
+      <section id="contact-section" className='contact-section'>
         <h1 className='contact__title'>Contáctanos </h1>
         <p className='contact__text'>¿Te interesa trabajar con nosotros? Envíanos un mensaje y nos pondremos en contacto contigo.</p>
         <div className='contact__container'>
@@ -26,9 +26,7 @@ function Contact() {
   </linearGradient>
   </defs>
           </svg>
-          <button className='contact__container--message' onClick={handleWhatsAppClick}>Enviar Mensaje <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M18.907 6.44L11.252 14.095C11.479 14.42 11.672 14.771 11.827 15.143L13.737 19.742L18.907 6.439V6.44ZM9.905 12.748L17.561 5.092L4.258 10.262L8.857 12.173C9.22615 12.3261 9.57755 12.5189 9.905 12.748ZM21.523 4.886L15.496 20.392C15.116 21.372 14.019 21.875 13.047 21.516C12.8102 21.4285 12.5941 21.293 12.4122 21.118C12.2303 20.943 12.0866 20.7322 11.99 20.499L10.08 15.9C9.70836 15.0038 8.99623 14.2916 8.1 13.92L3.5 12.01C2.546 11.613 2.11 10.51 2.528 9.544C2.63049 9.30796 2.77869 9.09454 2.96405 8.91605C3.14941 8.73755 3.36826 8.59751 3.608 8.504L19.114 2.475C19.4509 2.33922 19.8203 2.30552 20.1763 2.3781C20.5322 2.45069 20.8589 2.62634 21.1158 2.8832C21.3727 3.14006 21.5483 3.46679 21.6209 3.82272C21.6935 4.17865 21.6598 4.54807 21.524 4.885L21.523 4.886Z" fill="#0F172A"/>
-              </svg>
+          <button className='contact__container--message' onClick={handleWhatsAppClick}>Enviar Mensaje 
           </button>
         </div>
       </section>

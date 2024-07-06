@@ -1,9 +1,8 @@
 .about-us {
-    background: white
+    margin-top: 2.5rem;
 }
 
 .about-us__title {
-    margin-top: 2.5rem;
     margin-left: 1rem;
     font-size: 2rem;
     font-style: normal;
@@ -20,6 +19,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    text-align: left;
     color: var(--text-color);
 }
 
@@ -84,8 +84,8 @@
         }
 
         .about-us__child-cards {
-            width: 10.8rem;
-            height: 12.4rem;
+            width: 11rem;
+            height: 15rem;
         }
 
         .about-us__card-svg {
@@ -104,6 +104,10 @@
 }
 
 @media screen and (min-width: 1025px) {
+    .about-us {
+        margin-top: 5rem;
+    }
+
     .about-us__description {
         font-size: 1.4rem;
     }

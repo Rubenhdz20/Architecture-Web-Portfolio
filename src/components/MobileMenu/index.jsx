@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import './MobileMenu.css';
 
 const MobileMenu = ({ className, onClose }) => {

@@ -4,10 +4,10 @@
 
 .whatwedo__title {
     margin-left: 1rem;
-    font-size: 32px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 35px; /* 109.375% */
+    line-height: 2rem; 
     letter-spacing: -0.8px;
     color: var(--title-color);
 }
@@ -64,7 +64,7 @@
 
 @media screen and (min-width: 1025px) {
     .whatwedo {
-        margin-top: 6rem;
+        margin-top: 8rem;
     } 
     
     .whatwedo__information {
@@ -91,7 +91,7 @@
     }
 
     .whatwedo__information--text {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         margin-top: 0;
         margin-right: 4rem;
         margin-left: 4rem;

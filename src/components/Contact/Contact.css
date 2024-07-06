@@ -1,3 +1,7 @@
+.contact-section {
+    margin-top: 10rem;
+}
+
 .contact__title {
     margin-top: 5rem;
     margin-left: 1rem;
@@ -10,8 +14,9 @@
 }
 
 .contact__text {
-    margin-top: 2rem;
+    margin-top: 3rem;
     margin-bottom: 3rem;
+    margin-right: 1rem;
     margin-left: 1rem;
     font-size: 1rem;
     font-style: normal;
@@ -40,17 +45,29 @@
     padding: .5rem;
     border: none;
     border-radius: .5rem;
-    color: #0E0E0E;
-    background-color: #6AA2F6;
+    color: var(--background-color);
+    background-color: #1572ff;
     cursor: pointer;
 }
 
 .contact__container--message:hover {
-    background-color: #b5d3ff;
+    background-color: var(--background-button-color);
 }
 
 @media screen and (max-width: 1024px) {
     .contact__text {
         font-size: 1.3rem;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .contact-section {
+        margin-top: 10rem;
+    }
+
+    .contact__text {
+        font-size: 1.4rem;
+        text-align: center;
     }
 }

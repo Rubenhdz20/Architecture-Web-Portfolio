@@ -1,3 +1,5 @@
+
+
 .ourwork-title {
     margin-top: 5rem;
     margin-left: 1rem;
@@ -18,8 +20,16 @@
     letter-spacing: -0.33px;
 }
 
-.ourwork-card {
-    margin-top: 3rem;
+.ourwork-card { 
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem; 
+   
+}
+
+.slick-slide img {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,12 +72,12 @@
     border: none;
     border-radius: .5rem;
     color: var(--background-color);
-    background-color: var(--background-button-color);
+    background-color: #1572ff;
     cursor: pointer; 
 }
 
 .ourwork-card--button:hover {
-    background-color: #1572ff;
+    background-color: var(--background-button-color);
     border-color: 1px  gray;
 }
 
@@ -114,8 +124,8 @@
 
 
 @media screen and (min-width: 1025px) {
-    .ourwork-title {
-        margin-top: 7rem;
+    .ourwork {
+        margin-top: 6rem;
     }
 
     .ourwork-subtitle {
