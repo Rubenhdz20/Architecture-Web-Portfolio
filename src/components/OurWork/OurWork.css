@@ -71,13 +71,13 @@
     align-items: center;
     border: none;
     border-radius: .5rem;
-    color: var(--background-color);
-    background-color: #1572ff;
+    color: #000000;
+    background-color: #8fbcff;
     cursor: pointer; 
 }
 
 .ourwork-card--button:hover {
-    background-color: var(--background-button-color);
+    background-color: #c8deff;
     border-color: 1px  gray;
 }
 

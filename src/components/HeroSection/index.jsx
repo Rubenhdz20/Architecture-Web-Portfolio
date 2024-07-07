@@ -25,7 +25,7 @@ function HeroSection() {
                 <h2 className="hero__second-title">Arquitecta Mariana</h2>
                 <ul className='hero__menu-desktop'>
                     <li className='hero__menu-desktop--li'>
-                        <a onClick={() => {
+                        <a  onClick={() => {
                             const aboutUsSection = document.getElementById('about-us');
                             if (aboutUsSection) {
                                 aboutUsSection.scrollIntoView({ behavior: 'smooth' });
@@ -67,7 +67,7 @@ function HeroSection() {
                 </ul>
             </nav>
             <section className="hero__section">
-                <img className="hero__section--background" src='public/assets/backgroundsmall.jpg' srcset="public/assets/mediumbackground.jpg 602w, public/assets/largebackground.jpg 1025w"alt="Construction Building" />
+                <img className="hero__section--background" src='/assets/backgroundsmall1.jpg' srcset="/assets/mediumbackground.jpg 602w, /assets/largebackground1.jpg 1025w" alt="Construction Building"/>
                 <h1 className="hero__section--first-title">Construyendo el futuro de tu proyecto</h1>
             </section>
         </>
