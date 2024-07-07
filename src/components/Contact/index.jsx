@@ -1,12 +1,33 @@
-import React from 'react';
+import React, { useState, useRef } from 'react';
 import './Contact.css';
 
 function Contact() {
+  const [copied, setCopied] = useState(false); 
+  const copiedTextRef = useRef(null); 
+
   const handleWhatsAppClick = () => {
     const phoneNumber = '+5212215258865'; 
     const url = `https://wa.me/${phoneNumber}`;
       window.location.href = url;
   };
+
+  const copyToClipboard = async () => {
+    try {
+      const buttonText = document.getElementById('copyButton').textContent;
+      await navigator.clipboard.writeText(buttonText);
+      setCopied(true); 
+    } catch (err) {
+      console.error('Failed to copy text:', err);
+    }
+  };
+
+  const handleCopyClick = () => {
+    copyToClipboard();
+    setTimeout(() => {
+      setCopied(false); 
+    }, 1000); 
+  };
+
 
   return (
     <>
@@ -27,6 +48,13 @@ function Contact() {
           </svg>
           <button className='contact__container--message' onClick={handleWhatsAppClick}>Enviar Mensaje 
           </button>
+          <img src="/assets/Gmail.jpg" alt="Gmail Account" />
+          <p className='contact__container--message' id="copyButton" onClick={handleCopyClick}> mariana02alvarado@gmail.com</p>
+          {copied && (
+            <span ref={copiedTextRef} className='contact__container--message'>
+              Copiado!
+            </span>
+          )}
         </div>
       </section>
     </>

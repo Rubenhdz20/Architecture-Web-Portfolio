@@ -23,7 +23,7 @@ function OurWork() {
             <h2 className='ourwork-subtitle'>Proyectos Realizados</h2>
                 <Slider {...settings}>
                     {projects.map((project) => (
-                        <div id='unique' className='ourwork-card' key={project.id}>
+                        <div className='ourwork-card' key={project.id}>
                             {project.image && ( 
                                 <img
                                     className='ourwork-card--image'
