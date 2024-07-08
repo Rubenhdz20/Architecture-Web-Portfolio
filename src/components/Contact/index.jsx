@@ -49,12 +49,13 @@ function Contact() {
           <button className='contact__container--message' onClick={handleWhatsAppClick}>Enviar Mensaje 
           </button>
           <img src="/assets/Gmail.jpg" alt="Gmail Account" />
-          <p className='contact__container--message' id="copyButton" onClick={handleCopyClick}> mariana02alvarado@gmail.com</p>
           {copied && (
             <span ref={copiedTextRef} className='contact__container--message'>
               Copiado!
             </span>
           )}
+          <p className='contact__container--message' id="copyButton" onClick={handleCopyClick}> mariana02alvarado@gmail.com</p>
+          
         </div>
       </section>
     </>

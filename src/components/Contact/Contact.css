@@ -1,5 +1,5 @@
 .contact-section {
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 
 .contact__title {
@@ -39,7 +39,7 @@
 
 .contact__container--message {
     margin-top: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     display: flex;
     justify-content: center;
     padding: .5rem;
