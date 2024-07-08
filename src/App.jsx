@@ -6,8 +6,8 @@ import MyRoutes from './routes'
 function App() {
   return (
     <ProjectsProvider>
-     <MyRoutes />
-  </ProjectsProvider>
+      <MyRoutes />
+    </ProjectsProvider>
   )
 }
 
