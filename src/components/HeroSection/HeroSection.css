@@ -1,7 +1,6 @@
 .hero__section {
     position: relative;
     z-index: 1;
-    overflow: hidden;
     width: 100%;
     height: auto;
 }
