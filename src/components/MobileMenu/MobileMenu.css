@@ -60,7 +60,6 @@
 .mobile-list__link {
     font-style: normal;
     font-weight: 600;
-    line-height: 1.25rem; 
     text-decoration: none;
     color: var(--title-color);
 }
@@ -69,7 +68,6 @@
     .mobile-list__item {
         margin-top: 3rem;
         width: 22rem;
-        height: 4rem;
         gap: 1rem;
         border-radius: .75rem;
     }
@@ -88,7 +86,6 @@
         .mobile-list__item {
             margin-top: 3rem;
             width: 18.3rem;
-            height: 3rem;
             gap: 1rem;
             border-radius: .75rem;
         }

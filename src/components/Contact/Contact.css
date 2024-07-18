@@ -8,7 +8,6 @@
     font-size: 2rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 2rem; /* 109.375% */
     letter-spacing: -0.8px;
     color: var(--title-color);
 }
@@ -18,7 +17,6 @@
     margin-bottom: 3rem;
     margin-right: 1rem;
     margin-left: 1rem;
-    font-size: 1rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -35,6 +33,10 @@
 .contact__container--wa {
     margin-bottom: 1rem;
     color: #01E423;
+}
+
+.contact__gmail {
+    margin-top: 2rem;
 }
 
 .contact__container--message {
@@ -58,6 +60,14 @@
     .contact__text {
         font-size: 1.3rem;
         text-align: center;
+    }
+
+
+    @media screen and (max-width: 602px) {
+        .contact__text {
+            font-size: 1rem;
+            text-align: center;
+        }
     }
 }
 

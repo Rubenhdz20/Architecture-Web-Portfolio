@@ -33,7 +33,7 @@ function Contact() {
     <>
       <section id="contact-section" className='contact-section'>
         <h1 className='contact__title'>Contáctanos </h1>
-        <p className='contact__text'>¿Te interesa trabajar con nosotros? Envíanos un mensaje y nos pondremos en contacto contigo.</p>
+        <p className='contact__text'>Para más información sobre nuestros servicios o para discutir su próximo proyecto, por favor, póngase en contacto con nosotros a través de nuestros canales de comunicación. Estamos aquí para ayudarle a transformar su visión en realidad.</p>
         <div className='contact__container'>
           <svg width="50" height="50" viewBox="0 0 1375 1376" fill="none" xmlns="http://www.w3.org/2000/svg">
   <path d="M1031.24 1031.51C1221.09 841.666 1221.09 533.865 1031.24 344.018C841.395 154.172 533.593 154.172 343.747 344.018C153.901 533.865 153.901 841.666 343.747 1031.51C533.593 1221.36 841.395 1221.36 1031.24 1031.51Z" fill="url(#paint0_linear_0_784)"/>
@@ -48,7 +48,7 @@ function Contact() {
           </svg>
           <button className='contact__container--message' onClick={handleWhatsAppClick}>Enviar Mensaje 
           </button>
-          <img src="/assets/Gmail.jpg" alt="Gmail Account" />
+          <img src="/assets/Gmail.jpg" alt="Gmail Account" className='contact__gmail'/>
           {copied && (
             <span ref={copiedTextRef} className='contact__container--message'>
               Copiado!

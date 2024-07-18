@@ -1,12 +1,9 @@
-
-
 .ourwork-title {
     margin-top: 5rem;
     margin-left: 1rem;
     font-size: 2rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 2.18rem; 
     letter-spacing: -0.8px;
     color: var(--title-color);
 }
@@ -16,8 +13,17 @@
     text-align: center;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.71rem;
     letter-spacing: -0.33px;
+}
+
+.ourwork__description {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    text-align: left;
+    color: var(--text-color);
 }
 
 .ourwork-card { 
@@ -26,7 +32,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 3rem; 
-   
+    cursor: grab;
 }
 
 .slick-slide img {
@@ -87,6 +93,10 @@
         font-size: 1.5rem;
     }
 
+    .ourwork__description {
+        font-size: 1.3rem;
+    }
+
     .ourwork-card--image {
         width: 17rem;
         height: 17rem;
@@ -105,6 +115,10 @@
         .ourwork-subtitle {
             font-size: 1.25rem;
         }
+
+        .ourwork__description {
+            font-size: 1rem;
+        }    
     
         .ourwork-card--image {
             width: 13.75rem;
@@ -130,6 +144,11 @@
 
     .ourwork-subtitle {
         margin-top: 7rem;
+    }
+
+
+    .ourwork__description {
+        font-size: 1.4rem;
     }
 
     .ourwork-card--image {

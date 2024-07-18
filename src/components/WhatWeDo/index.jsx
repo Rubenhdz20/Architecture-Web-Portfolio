@@ -7,11 +7,11 @@ function WhatWeDo() {
             <div className='whatwedo__container'>
                 <div className='whatwedo__information'>
                     <img className='whatwedo__information--image img1' src="/assets/construccion1.jpg" alt="Construction background"/>
-                    <p className='whatwedo__information--text p1'>En nuestro servicio de construcción, nos enfocamos en brindar soluciones de alta calidad y personalizadas para cada proyecto. Ya sea que necesites construir una nueva edificación o realizar una renovación importante, nuestro equipo de expertos en construcción trabajará contigo para garantizar que tu proyecto se complete a tiempo, dentro del presupuesto y con la calidad esperada.</p>
+                    <p className='whatwedo__information--text p1'>En nuestro servicio de construcción, nos dedicamos a ofrecer soluciones personalizadas y de alta calidad para cada proyecto. Ya sea que requieras la construcción de una nueva edificación o una renovación integral, nuestro equipo de expertos en construcción colaborará estrechamente contigo para asegurar que tu proyecto se complete puntualmente, dentro del presupuesto y con los más altos estándares de calidad.</p>
                 </div>
                 <div className='whatwedo__information'>
                     <img className='whatwedo__information--image' src="/assets/remodelacion1.jpg" alt="remodelling image"/>
-                    <p className='whatwedo__information--text p2'>Transforme su espacio: nos enfocamos en darle un nuevo aire a su vivienda con nuestros expertos servicios de remodelación. Trabajaremos estrechamente con usted para entender su visión y crear un espacio funcional y con estilo que satisfaga sus necesidades.</p>
+                    <p className='whatwedo__information--text p2'>Transforme su espacio con nuestro equipo de expertos en remodelación. Nos dedicamos a revitalizar su vivienda, creando ambientes funcionales y estéticamente atractivos. Trabajamos de manera colaborativa para entender su visión y diseñar espacios que se ajusten a sus necesidades y estilo.</p>
                 </div>
                 <div className='whatwedo__information'>
                     <img className='whatwedo__information--image img1' src="/assets/design1.jpg" alt="Design Background"/>

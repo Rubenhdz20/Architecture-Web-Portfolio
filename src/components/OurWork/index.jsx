@@ -21,6 +21,8 @@ function OurWork() {
         <section id='our-work' className='ourwork'>
             <h1 className='ourwork-title'>Nuestro Trabajo</h1>
             <h2 className='ourwork-subtitle'>Proyectos Realizados</h2>
+            <p className='ourwork__description'>A lo largo de los años, hemos completado una amplia gama de proyectos que incluyen edificios residenciales, oficinas, centros comerciales y proyectos de renovación urbana. Cada proyecto refleja nuestro compromiso con la excelencia y la innovación arquitectónica.
+            </p>
                 <Slider {...settings}>
                     {projects.map((project) => (
                         <div className='ourwork-card' key={project.id}>
