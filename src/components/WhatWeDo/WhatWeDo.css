@@ -36,6 +36,7 @@
     margin-left: 1rem;
     font-style: normal;
     font-weight: 400;
+    line-height: 2rem;
     text-align: left;
     color: var(--text-color);
 }
@@ -75,7 +76,7 @@
     }
 
     .whatwedo__information--image {
-        width: 100%;
+        width: 90%;
     }
 
     .whatwedo__information .img1 {
@@ -95,6 +96,6 @@
         margin-right: 4rem;
         margin-left: 4rem;
         text-wrap: wrap;
+        line-height: 2rem;
     }
-
 }

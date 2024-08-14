@@ -18,8 +18,8 @@
     margin-right: 1rem;
     margin-left: 1rem;
     font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+    font-weight: 400;
+    line-height: 2rem;
     color: var(--text-color);
 }
 
