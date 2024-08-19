@@ -12,6 +12,13 @@
     color: var(--title-color);
 }
 
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .contact__text {
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -77,6 +84,7 @@
     }
 
     .contact__text {
+        max-width: 75rem;
         font-size: 1.4rem;
         text-align: center;
     }

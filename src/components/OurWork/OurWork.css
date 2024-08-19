@@ -9,6 +9,13 @@
     color: var(--title-color);
 }
 
+.ourwork__container--description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .ourwork-subtitle {
     margin-top: 7rem;
     text-align: center;
@@ -24,7 +31,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: 2rem;
-    text-align: center;
     color: var(--text-color);
 }
 
@@ -150,7 +156,9 @@
 
 
     .ourwork__description {
+        max-width: 75rem;
         font-size: 1.4rem;
+        text-align: center;
     }
 
     .ourwork-card--image {
