@@ -1,6 +1,5 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom'; // Import Outlet
-import { useLocation } from 'react-router-dom';
 import HeroSection from '../components/HeroSection/index';
 import AboutUs from '../components/AboutUs/index';
 import OurWork from '../components/OurWork/index';
@@ -9,8 +8,6 @@ import WhatWeDo from '../components/WhatWeDo';
 
 
 function Layout() {
-  const location = useLocation(); 
-
   return (
     <div className='layout'>
       <main>
@@ -19,8 +16,8 @@ function Layout() {
         <WhatWeDo/>
         <OurWork/>
         <Contact/>
+        <Outlet/>
       </main>
-      {location.pathname !== '/project/:projectId' && <Outlet />}
     </div>
   );
 }
