@@ -67,7 +67,7 @@ function HeroSection() {
                 </ul>
             </nav>
             <section className="hero__section">
-                <img className="hero__section--background" src='public/assets/backgroundsmall1.jpg' srcset="public/assets/mediumbackground.jpg 602w, public/assets/largebackground1.jpg 1025w" alt="Construction Building"/>
+                <img className="hero__section--background" src='dist/assets/backgroundsmall1.jpg' srcset="dist/assets/mediumbackground.jpg 602w, dist/assets/largebackground1.jpg 1025w" alt="Construction Building"/>
                 <h1 className="hero__section--first-title">Construyendo el futuro de tu proyecto</h1>
             </section>
         </>

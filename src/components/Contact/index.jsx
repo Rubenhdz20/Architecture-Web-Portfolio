@@ -28,7 +28,6 @@ function Contact() {
     }, 1000); 
   };
 
-
   return (
     <>
       <section id="contact-section" className='contact-section'>
@@ -48,7 +47,7 @@ function Contact() {
           </svg>
           <button className='contact__container--message' onClick={handleWhatsAppClick}>Enviar Mensaje 
           </button>
-          <img src="/assets/Gmail.jpg" alt="Gmail Account" className='contact__gmail'/>
+          <img src="dist/assets/Gmail.jpg" alt="Gmail Account" className='contact__gmail'/>
           {copied && (
             <span ref={copiedTextRef} className='contact__container--message'>
               Copiado!
