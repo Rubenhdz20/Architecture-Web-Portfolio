@@ -6,14 +6,13 @@ import './ProjectDetails.css';
 function ProjectDetails() {
   const { projectId } = useParams();
   const navigate = useNavigate();
-  const { projects } = useContext(ProjectsContext); // Assuming you store your projects in a context
+  const { projects } = useContext(ProjectsContext); 
   const [project, setProject] = useState(null);
 
   useEffect(() => {
       const foundProject = projects.find(p => p.id === parseInt(projectId));
       if (!foundProject) {
-          // Handle case where project is not found, perhaps redirect or show a not-found message
-          navigate('/not-found'); // Redirect to a not found page or back home
+          navigate('/not-found'); 
       } else {
           setProject(foundProject);
       }
