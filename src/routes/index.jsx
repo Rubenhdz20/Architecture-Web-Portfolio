@@ -1,35 +1,24 @@
 import React from 'react';
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Layout from '../Layout/index';
-import AboutUs from '../components/AboutUs/index';
-import OurWork from '../components/OurWork/index';
 import ProjectDetails from "../components/ProjectDetails";
-import Contact from '../components/Contact';
 import MobileMenu from '../components/MobileMenu';
-import WhatWeDo from '../components/WhatWeDo';
 
 
-const router = createBrowserRouter([
-    {
-      path: '/',
-      element: <Layout />,
-      children: [
-        { path: 'about-us', element: <AboutUs /> }, 
-        { path: 'what-wedo', element: <WhatWeDo /> },
-        { path: 'our-work', element: <OurWork /> },
-        { path: 'contact', element: <Contact /> },
-      ],
-    },
-    {
-      path: 'project/:projectId',
-      element: <ProjectDetails />, // Render ProjectDetails on this route
-    },
-    {   
-      path:'/mobile-menu',
-      element: <MobileMenu/>
-    }
-  ]);
 
-const MyRoutes = () => <RouterProvider router={router}/>;
+const MyRoutes = () => {
+  return (
+    <HashRouter>
+      <Routes>
+        {/* Define the main layout and nested routes */}
+        <Route path="/" element={<Layout />}>
+        </Route>
+        {/* Define routes that are not nested within Layout */}
+        <Route path="/project/:projectId" element={<ProjectDetails />} />
+        <Route path="/mobile-menu" element={<MobileMenu />} />
+      </Routes>
+    </HashRouter>
+  );
+};
 
 export default MyRoutes;
