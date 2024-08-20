@@ -10,9 +10,9 @@ function ProjectDetails() {
     const project = location.state?.project;
     const navigate = useNavigate();
 
-    if (!project || project.id !== parseInt(projectId)) {
-      return <p>Loading project details...</p>; 
-    }
+    // if (!project || project.id !== parseInt(projectId)) {
+    //   return <p>Loading project details...</p>; 
+    // }
 
     const handleClick = () => {
       navigate('/');
