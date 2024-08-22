@@ -31,9 +31,9 @@ function Contact() {
   return (
     <>
       <section id="contact-section" className='contact-section'>
-        <h1 className='contact__title'>Contáctanos </h1>
+        <h1 className='contact__title'>Contáctenos</h1>
         <div className='contact-container'>
-          <p className='contact__text'>Para más información sobre nuestros servicios o para discutir su próximo proyecto, por favor, póngase en contacto con nosotros a través de nuestros canales de comunicación. Estamos aquí para ayudarle a transformar su visión en realidad.</p>
+          <p className='contact__text'>Si desea obtener más información sobre nuestros servicios o discutir los detalles de su próximo proyecto, no dude en comunicarse con nosotros a través de nuestros canales de contacto. Estamos a su disposición para ayudarle a convertir su visión en realidad.</p>
         </div>
         <div className='contact__container'>
           <svg width="50" height="50" viewBox="0 0 1375 1376" fill="none" xmlns="http://www.w3.org/2000/svg">
