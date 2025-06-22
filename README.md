@@ -88,38 +88,15 @@ Architecture Web Portfolio is a single-page application (SPA) designed to showca
 
 ## **Screenshots**
 
-![Homepage Screenshot](path/to/homepage-screenshot.png)
-*Caption: The main landing page, showcasing recent projects and client services.*
+![Screenshot 2025-06-22 at 5 55 52 p m](https://github.com/user-attachments/assets/13505730-985a-451a-962b-3906d1bf5c55)
 
-![Project Detail Screenshot](path/to/project-detail-screenshot.png)
-*Caption: Detailed view of a selected project, including descriptions, client testimonials, and gallery.*
 
 ---
 
 ## **Project Structure**
 
-```plaintext
-Architecture-Web-Portfolio/
-├── public/
-│   └── Altana/                            # Images of the project 
-|   |-- Casa 950                           # Images of the project 
-|   |-- Fuentes del Molino                 # Images of the project
-|   |-- San Pieri                          # Images of the project
-|   |-- Assets                             # Svgs  
-├── src/
-│   ├── components/            # About Us - Contact - Hero Section - Mobile Menu - Our Work - Project Context - Project Details - What we do 
-│   ├── layout/                 # Entry point
-│   ├── routes/                 # Navigation structure
-│   ├── App.jsx                 # Main App component
-│   ├── Main.jsx                 # Main App component
-│   └── styleguide.css           # Styles 
-├── .gitignore
-├── README.md
-├── index.html
-├── package.json
-├── vite.config
+![Screenshot 2025-06-22 at 5 54 08 p m](https://github.com/user-attachments/assets/b35bbcc3-b726-4a80-a229-d12fa1b1e65f)
 
-```
 
 ---
 
